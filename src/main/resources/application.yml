@@ -12,4 +12,11 @@ spring:
         predicates:
           - Path=/api/v1/mpesa/**
 
+      - id: ms-queue-with-rabbitMQ
+        uri: http://localhost:8081/
+        predicates:
+          - Path=/order/**
+t
+
+
 
